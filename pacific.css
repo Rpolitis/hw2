@@ -1,0 +1,137 @@
+/*
+Name: Ryan Politis
+File: pacific.css
+Date: 10/10/23
+GUI Assignment: Recreate given style using only CSS
+What the file does: External CSS matches the required style output
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/*
+Rules for header
+*/
+header {
+	color: white;
+	background-image: url("sunset.jpg");
+	background-color: #000033;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-top: 1px;
+	background-size: 340px;
+}
+
+/*
+Rules for wrapper of main content page
+*/
+#wrapper {
+	max-width: 80%;
+	min-width: 600px;
+	margin: 0px auto 0px auto;
+	background-color: #74aac0;
+}
+
+/*
+Rules for image, paragraphs, and body
+*/
+img {
+	float: left;
+	padding-right: 30px;
+}
+p {
+	font-size: larger;
+}
+body {
+	background-image: url("ptrbackground.jpg");
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*
+Rules for page content
+*/
+#content {
+	margin-top: -146px;
+	margin-left: 200px;
+	padding: 10px 30px 10px 30px;
+	display: inline-block;
+	background-color: white;
+}
+#content ul {
+	list-style-image: url("marker.gif");
+	font-size: larger;
+}
+#content li {
+	padding-bottom: 15px;
+}
+
+/*
+Rules for navigation sidebar
+*/
+nav {
+	max-width: 200px;
+	display: inline-block;
+	margin: 0px;
+}
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	padding-left: 0;
+	padding: 10px 30px 10px 30px;
+}
+nav a {
+	text-decoration: none;
+	color: #000033;
+	font-weight: bold;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/*
+Rules for header and contact
+*/
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+
+/*
+Rules for resort class
+*/
+.resort {
+	color: #3399CC;
+	font-weight: bold;
+}
+
+/*
+Rules for footer
+*/
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: white;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	margin-left: 200px;
+	min-width: 370px;
+}
